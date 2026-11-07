@@ -1,6 +1,8 @@
 import { projects, services } from '@/lib/content';
 import { siteUrl } from '@/lib/seo';
 
+export const dynamic = 'force-static';
+
 export default function sitemap() {
   const pages = ['', '/about/', '/services/', '/projects/', '/faq/', '/contact/'];
   return [
