@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "Sustainable Solar Energy Solutions",
+    "name": "Sustainable Energy Solutions",
     "shortName": "SSES",
     "phoneDisplay": "(+92) 301-820-7730",
     "phoneHref": "+923018207730",
@@ -305,78 +305,78 @@
   "faqs": [
     {
       "id": 1,
-      "question": "What components does a solar powered system have?",
-      "answer": "A solar powered energy system consists of solar panels, inverter, mounting structure for solar panels, electrical wiring, breakers and sometime batteries."
+      "question": "What components are included in a solar power system?",
+      "answer": "A solar power system normally includes solar panels, an inverter, mounting structure, DC and AC cabling, isolators, breakers, earthing and other electrical protection. Hybrid and off-grid systems also include batteries and compatible charge or battery-management equipment."
     },
     {
       "id": 2,
       "question": "How does a solar powered system work?",
-      "answer": "Photovoltaic (PV) cells in solar panels convert sunlight into direct current (DC). Inverters then convert the DC electricity into the alternating current (AC) which is then transferred to the main electrical distribution panel (DB) for use. In off-grid and hybrid systems, batteries can be used for storing the initial DC electricity coming from the solar panels through a charge controller."
+      "answer": "Photovoltaic cells convert sunlight into direct-current electricity. The inverter converts that electricity into alternating current for the property's distribution system. Depending on the design, surplus energy may be exported to the grid or stored in batteries for later use."
     },
     {
       "id": 3,
-      "question": "How does net-metering work?",
-      "answer": "Net-Metering concept is a process that allows customers to produce their own solar power and share their surplus electricity with the national grid. The monthly bill is then netted off in proportional to the amount of energy sold to the distribution company. The net metering procedure is used globally to promote the use of distributed generation."
+      "question": "How does solar grid export or net metering work in Pakistan?",
+      "answer": "An eligible grid-connected solar system may export surplus electricity through an approved bidirectional meter. Billing, eligibility, capacity and compensation depend on current NEPRA and distribution-company rules, so the latest requirements should be confirmed before system design or financial calculations."
     },
     {
       "id": 4,
-      "question": "What of its maintenance?",
-      "answer": "The only kind of maintenance a solar powered energy system requires is the cleaning of solar panel itself and nothing else. The frequency of cleaning can be weekly or bi-monthly according to the site situation."
+      "question": "What maintenance does a solar system require?",
+      "answer": "Maintenance can include panel cleaning, visual inspection, electrical connection and protection checks, inverter monitoring and performance review. Battery systems also require battery-health monitoring. The appropriate schedule depends on dust, access, equipment and site conditions."
     },
     {
       "id": 5,
       "question": "How much space would I need to install my solar powered system?",
-      "answer": "Space requirements range from 100 to 130 square feet per kW of solar PV installed, depending the tilt angle of the solar PV modules and facing towards the path that sun follows in that region."
+      "answer": "Required space depends on panel wattage and dimensions, tilt, row spacing, shading, access paths and the mounting structure. A roof or ground-layout assessment is needed before confirming how much capacity can be installed safely."
     },
     {
       "id": 6,
       "question": "What if my system produces more energy than I require?",
-      "answer": "The excess electricity would either be sold back to the grid using the net metering or will be stored in the form of batteries and used later by the same load center."
+      "answer": "Depending on the system design, surplus generation may be exported under the current utility arrangement, stored in compatible batteries or limited by inverter controls. The correct approach depends on grid approval, operating needs and project economics."
     },
     {
       "id": 7,
-      "question": "Will the weight of the solar PV system be of any concern for my roof?",
-      "answer": "Concrete roofs have no problems at all in handling the distributed load nature of solar PV panels and its frames, however T-slabs & truss based roofs have to be analyzed first before they are used for installation."
+      "question": "Can my roof support a solar PV system?",
+      "answer": "Roof capacity should not be assumed. The roof type, condition, mounting method, wind exposure and proposed system loads must be assessed before installation. Lightweight, truss and deteriorated roofs may require additional structural review."
     },
     {
       "id": 8,
-      "question": "How long does a solar powered energy system last?",
-      "answer": "Our systems are designed to have a useful life of 25 years or much more, according to the climate and atmosphere it has been used it."
+      "question": "How long does a solar power system last?",
+      "answer": "Solar panels are commonly designed for long service lives, while inverters, batteries and other components have different expected lifetimes and warranty terms. Actual performance depends on equipment quality, design, installation, climate and maintenance."
     },
     {
       "id": 9,
-      "question": "Does SSES provide O&M services?",
-      "answer": "Yes, we do."
+      "question": "Does SSES provide solar operation and maintenance services?",
+      "answer": "SSES can review operation and maintenance requirements for a solar installation. Contact the team with the system type, location and current issue so the available scope can be confirmed."
     },
     {
       "id": 10,
-      "question": "Sustainable Solar Energy Solutions - SSES",
-      "answer": ""
+      "question": "Where is Sustainable Energy Solutions located?",
+      "answer": "SSES is based at Office # 813-B, Anum Estate Building, Shahrah-e-Faisal, Karachi, Pakistan."
     },
     {
       "id": 11,
-      "question": "Why should we go with SSES?",
-      "answer": "SSES was started by the first ever Energy Engineers of Pakistan. We are here to elevate the standards of services in the solar field. SSES has successfully installed hundreds of solar projects with unbeatable price and services within Pakistan. We strive to live by the following codes of ethic.\nUse of correct design principles.\nAlways use original and quality products.\nEliminate incorrect installation practices.\nSafety of client and labor always comes first."
+      "question": "How does SSES approach solar system design?",
+      "answer": "SSES begins with the site's load, operating hours, available space, grid conditions and backup requirement. The team then selects the system type, capacity, equipment and protection needed for that specific project rather than starting with a fixed package."
     },
     {
       "id": 12,
-      "question": "What is the point of origin of SSES’s products?",
-      "answer": "SSES sources its components from various countries. Some of these countries include Germany, Austria, Italy, United States, China and Pakistan. SSES focuses its efforts on designing the most optimum technical and commercial solution on a case to case basis."
+      "question": "Which solar panels, inverters and batteries does SSES use?",
+      "answer": "Component selection depends on system design, availability, warranty support, compatibility and the approved project proposal. SSES can present the proposed brands and technical specifications for review before installation."
     },
     {
       "id": 13,
-      "question": "How to check if the components offered are off the best quality or not?",
-      "answer": "There is nothing hidden during these times of information available at hand. Nowadays market is full of deceit. We give our costumer the virtual choices they can select from according to their requirement and need after they choose and the goods are delivered, they can scan the QR codes of those equipment to cross check what they had chosen earlier."
+      "question": "How can I verify the quality of proposed solar equipment?",
+      "answer": "Check the exact model numbers, datasheets, safety certifications, serial numbers, manufacturer warranty terms and local warranty support. The delivered equipment should match the approved proposal, and serial or QR verification should be used when the manufacturer provides it."
     },
     {
       "id": 14,
-      "question": "What safety protocols are important to consider while putting up a solar PV system?",
-      "answer": "The National Electric Code (NEC) is an electrical safety code and has a section dedicated to solar PV system electrical installations safety. The NEC drives several design and installation decisions. The National Fire Protection Association (NFPA) has dedicated sections on hazard identification and installation best practices for solar PV systems. California Fire Code (CalFire) is a set of rooftop solar installation safety best practices made by the state of California and used globally for installing solar PV modules to facilitate fire emergency services. International building Code (IBC) used for standard safety practices to evaluate roofs/structures before installing solar PV modules."
+      "question": "What safety measures are important in a solar PV installation?",
+      "answer": "A safe installation requires correct cable sizing, DC and AC isolation, overcurrent and surge protection, earthing, suitable enclosures, secure mounting, safe roof access and clear shutdown procedures. Design and installation should follow applicable local requirements, manufacturer instructions and recognized electrical and structural practices."
     },
     {
       "id": 15,
-      "question": "How much would a solar powered system installed by SSES cost?",
-      "answer": "SSES can provide the best information on what it will cost to go solar for your load. However, once customers begin to explore solar options, they can find vastly varying rates in the market for the same system, what differ are the genuine parts and equipment used by us and some local street vendors. Moreover it is important for costumers to know that the total up-front cost of solar is less relevant than the financing terms, return-on-investment, and cash flow calculation. Financial options such as solar leases and other innovative financing models can help you convert to solar for little or no money along with an efficient design that can also help bring the costs down."
+      "question": "How much does a solar system cost in Pakistan?",
+      "answer": "Cost depends on system capacity, on-grid or backup design, panel and inverter models, battery storage, mounting structure, electrical protection, site conditions and installation scope. SSES needs current bills or load data and a site assessment before providing a meaningful quotation."
     }
   ],
   "testimonials": [
@@ -402,7 +402,7 @@
       "id": 4,
       "name": "Owais Zaki",
       "designation": "(Area Manager Ideas By Gul Ahmed)",
-      "message": "I had installed the solar power generation system at my home through Sustainable Solar Energy Solutions & have been using it since July 2019. Alhamdulillah very satisfied with the work & the product. Excellent customer service, the team is very supportive & resolves any kind of issues immediately. P.S. The society i am living in has no K.E. connection yet. Solar power is the only source of electricity since I am against the Kunda system."
+      "message": "I had installed the solar power generation system at my home through Sustainable Energy Solutions & have been using it since July 2019. Alhamdulillah very satisfied with the work & the product. Excellent customer service, the team is very supportive & resolves any kind of issues immediately. P.S. The society i am living in has no K.E. connection yet. Solar power is the only source of electricity since I am against the Kunda system."
     }
   ],
   "team": [
