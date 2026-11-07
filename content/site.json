@@ -1,0 +1,435 @@
+{
+  "company": {
+    "name": "Sustainable Solar Energy Solutions",
+    "shortName": "SSES",
+    "phoneDisplay": "(+92) 301-820-7730",
+    "phoneHref": "+923018207730",
+    "whatsappHref": "https://wa.me/923018207730",
+    "email": "info.sustainablesolar@gmail.com",
+    "address": "Office # 813-B, Anum Estate Building, Shahrah-e-Faisal, Karachi, Pakistan"
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Solar Water Pumping System",
+      "slug": "solar-water-pumping-system",
+      "excerpt": "The system operates on power generated using solar PV (photovoltaic) system.",
+      "content": "The system operates on power generated using solar PV (photovoltaic) system. The photovoltaic array converts the solar energy into electricity, which is used for running the motor pump set. The pumping system draws\nwater from the open well, bore well, stream, pond, canal etc.\nSolar water pumping systems can be a practical and affordable solution used to provide reliable and cost effective water supplies where there is no grid power or where power supply is unreliable.\nThe advantages of these systems include:\nSolar pumps operate anywhere the sun shines.\nSystem productivity increases in summer when water requirement is usually greater.\nPowered by clean, renewable energy.\nVirtually free to operate, compared to the cost of diesel-powered generators and grid electricity which is constantly increasing.\nEasily relocated to meet seasonal or variable location needs.\nBecause solar systems only operate during daylight hours the water pumped out is typically stored in a storage tank for use 24 hours per day, to ensure constant availability of water. The tank capacity should be designed to allow for rainy or cloudy days (no sun days) when pumping will be limited. The size and dimensions of the storage tank is determined based on the required number of day’s storage. If large storage tanks are impractical, back up batteries or a generator can also be incorporated in the design to allow for prolonged periods of no\nsun days that will eventually empty the water storage tank.\nPossible applications include:\nLivestock – cattle watering and fish farming.\nAgriculture – irrigation or crop watering.\nRecreational – swimming pool circulation pumps; spa.\nResidential – water supply for drinking or pressure boosting.\nIndustrial – water supply for businesses.\nPumping can be by submersible pumps, commonly used for deeper wells, where surface pumps cannot be used because the water level is too deep below ground level (below approximately 6 meters depth). These borehole pumps are specially designed to have a small outside diameter so they can be suspended below the water level in the well and connected to an output pipe that extends up to the surface. The right pump for each application will depend on the requir\ned pumping rates and pumping height and distance.\nAlternatively, surface pumps are used to move water from sources such as shallow wells, ponds, streams, and tanks, where the pump itself can be located no more than 6 meters above the water level. There are many types of pump available; the choice will depend on how much water per day needs to be moved and the height and distance to the delivery point (such as the storage tank). Pump efficiency and reliability can be\nimproved if suction lift can be minimized to just a few meters.\nGetting the most benefit from solar water pumping systems requires research and design before the first PV module and a pump is purchased and installed. Each component must be carefully matched, and proper planning is essential – so the final system will be efficient and reliable and can function for many years to come. Groundwater Engineering’s team has extensive experience in solar PV and solar water pumping systems and we can offer a\ncomplete design and installation service to meet client needs.",
+      "image": "/media/services/water-pumping-card.jpg",
+      "detailImage": "/media/services/water-pumping-detail.jpg",
+      "icon": "/uploads/services_icon01_766ac6a7ca.svg"
+    },
+    {
+      "id": 2,
+      "title": "ON-GRID SOLAR SYSTEM",
+      "slug": "on-grid-solar-system",
+      "excerpt": "On-grid or grid-tie solar systems are by far the most common & widely used.",
+      "content": "On-grid or grid-tie solar systems are by far the most common and widely used by homes and businesses. These systems do not need batteries and use common solar inverters and are connected to the public electricity grid. Any excess solar power that you generate is exported to the electricity grid and you usually get paid a feed-in-tariff (FiT) or credits for the energy you export.\nUnlike hybrid systems, on-grid solar systems are not able to function or generate electricity during a blackout due to safety reasons.\nSince blackouts usually occur when the electricity grid is damaged; If the solar inverter was still feeding electricity into a damaged grid it would risk the safety of the people repairing the fault/s in the network.\nMost hybrid solar systems with battery storage are able to automatically isolate from the grid (known as islanding) and continue to supply some power during a blackout.",
+      "image": "/media/services/on-grid-card.jpg",
+      "detailImage": "/media/services/on-grid-detail.jpg",
+      "icon": "/uploads/services_icon02_72d8b4b668.svg"
+    },
+    {
+      "id": 3,
+      "title": "OFF-GRID SOLAR SYSTEM",
+      "slug": "off-grid-solar-system",
+      "excerpt": "An off-grid system is not connected to the electricity grid.",
+      "content": "An off-grid system is not connected to the electricity grid and therefore requires battery storage. An off-grid solar system must be designed appropriately so that it will generate enough power throughout the year and have enough battery capacity to meet the home’s requirements, even in the depths of winter when there is less sunlight.\nThe high cost of batteries and inverters means off-grid systems are much more expensive than on-grid systems and so are usually only needed in more remote areas that are far from the electricity grid.\nHowever battery costs a re reducing rapidly, so there is now a growing market for off-grid solar battery systems even in cities and towns.",
+      "image": "/media/services/off-grid-card.jpg",
+      "detailImage": "/media/services/off-grid-detail.jpg",
+      "icon": "/uploads/services_icon03_84899c8eff.svg"
+    },
+    {
+      "id": 4,
+      "title": "HYBRID SOLAR PV SYSTEM",
+      "slug": "hybrid-solar-pv-system",
+      "excerpt": "The system operates on power generated using solar PV (photovoltaic) system.",
+      "content": "Modern hybrid systems combine solar and battery storage in one and are now available in many different forms and configurations.\nDue to the decreasing cost of battery storage, systems that are already connected to the electricity grid can start taking advantage of battery storage as well.\nThis means being able to store solar energy that is generated during the day and using it at night.\nWhen the stored energy is depleted, the grid is there as a back-up, allowing consumers to have the best of both worlds.\nHybrid systems are also able to charge the batteries using cheap off-peak electricity (usually after midnight to 6am).",
+      "image": "/media/services/hybrid-card.jpg",
+      "detailImage": "/media/services/hybrid-detail.jpg",
+      "icon": "/uploads/services_icon04_2e287671d2.svg"
+    },
+    {
+      "id": 5,
+      "title": "SOLAR WATER HEATER SYSTEM",
+      "slug": "solar-water-heater-system",
+      "excerpt": "Investigationes demonstraverunt lectore legere me lius quod ii legunt saepius.",
+      "content": "Solar water heating (SWH) is the conversion of sunlight into heat for water heating using a solar thermal collector. A variety of configurations are available at varying cost to provide solutions in different conditions.\nA sun-facing collector heats a working fluid that passes into a storage system for later use.\nSWH are active (pumped) and passive (convection/gravity-driven).\nThey use water only, or both water and a working fluid.\nThey operate independently or as hybrids with electric or gas heaters.",
+      "image": "/media/services/water-heater-card.jpg",
+      "detailImage": "/media/services/water-heater-detail.jpg",
+      "icon": "/uploads/services_icon05_e93c509fed.svg"
+    }
+  ],
+  "projects": [
+    {
+      "id": 2,
+      "title": "5 kW Kangoori, Shah Noorani",
+      "slug": "5-k-w-kangoori-shah-noorani",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "This is a 5 kW solar water pumping system installed by SSES on 24th April, 2020. Mr. Sardar Akhtar Mengal (Member of National Assembly, Pakistan) sponsored...",
+      "content": "This is a 5 kW solar water pumping system installed by SSES on 24th April, 2020. Mr. Sardar Akhtar Mengal (Member of National Assembly, Pakistan) sponsored this project for the poor people of this small village Kangoori, which is located near Shah Noorani Dargah Balochistan. SSES successfully completed this project within two days despite its remote location. All the safety measures were taken and SOPs were strictly followed as this project was installed during the corona pandemic days.",
+      "date": "2020-04-24",
+      "clients": "Sardar Akhtar Mengal",
+      "category": "Solar Water Pumping",
+      "location": "Kangoori Shah Noorani, Balochistan",
+      "image": "/media/projects/cards/project-01.jpg",
+      "detailImage": "/media/projects/details/project-1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Harambove, Khuzdar",
+      "slug": "harambove-khuzdar",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "",
+      "content": "This is a solar water pumping system installed by SSES on 29th June, 2020. SSES won this tender of installation of Solar Water Pumping System at “Killi DernAli Amin Harambove, Khuzdar, Balochistan” by submitting the lowest bid to Public Health Engineering (PHE), Khuzdar. SSES successfully completed this project within a single days despite its remote location. All the safety measures were taken and SOPs were strictly followed as this project was installed during the corona pandemic days.",
+      "date": "2020-06-29",
+      "clients": "Public Health Engineering (PHE) Khuzdar Government of Balochistan",
+      "category": "Solar Water Pumping",
+      "location": "Kangoori Shah Noorani, Balochistan",
+      "image": "/media/projects/cards/project-02.jpg",
+      "detailImage": "/media/projects/details/project-2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Noorani Dargah",
+      "slug": "noorani-dargah",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "",
+      "content": "This is a solar water pumping system installed by SSES on 6th May, 2020. SSES won this tender of installation of Solar Water Pumping System at “Shah Noorani Dargah, Balochistan” by submitting the lowest bid to Public Health Engineering (PHE), Khuzdar. SSES successfully completed this project within a single days despite its remote location. All the safety measures were taken and SOPs were strictly followed as this project was installed during the corona pandemic days.",
+      "date": "2020-05-06",
+      "clients": "Public Health Engineering (PHE) Khuzdar Government of Balochistan",
+      "category": "Solar Water Pumping",
+      "location": "Shah Noorani Daragh, Balochistan",
+      "image": "/media/projects/cards/project-03.jpg",
+      "detailImage": "/media/projects/details/project-3.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Yusuf Shah Goth",
+      "slug": "yusuf-shah-goth",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "",
+      "content": "This is solar water pumping system installed by SSES on 9th May, 2020. SSES won this tender of installation of Solar Water Pumping System at “Syed Yusuf Shah Goth, Balochistan” by submitting the lowest bid to Public Health Engineering (PHE), Khuzdar. SSES successfully completed this project within a single days despite its remote location. All the safety measures were taken and SOPs were strictly followed as this project was installed during the corona pandemic days.",
+      "date": "2020-05-09",
+      "clients": "Public Health Engineering (PHE) Khuzdar Government of Balochistan",
+      "category": "Solar Water Pumping",
+      "location": "Syed Yusuf Shah Goth, Balochistan",
+      "image": "/media/projects/cards/project-04.jpg",
+      "detailImage": "/media/projects/details/project-4.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Khuzdar Sunni",
+      "slug": "khuzdar-sunni",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "",
+      "content": "This is solar water pumping system installed by SSES on 14th May, 2020. SSES won this tender of installation of Solar Water Pumping System at “Sunni Gumbadi Khuzdar” by submitting the lowest bid to Municipal Corporation, Khuzdar. SSES successfully completed this project within a week. All the safety measures were taken and SOPs were strictly followed as this project was installed during the corona pandemic days.",
+      "date": "2020-05-14",
+      "clients": "Public Health Engineering (PHE) Khuzdar Government of Balochistan",
+      "category": "Solar Water Pumping",
+      "location": "Sunni Gumbadi Khuzdar",
+      "image": "/media/projects/cards/project-05.jpg",
+      "detailImage": "/media/projects/details/project-5.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Trickle Irrigation",
+      "slug": "trickle-irrigation",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "",
+      "content": "This is a 10 kW solar water pumping system installed by SSES on 8th August, 2019. SSES won this tender of installation of Solar Water Pumping System for trickle Irrigation system at“Lasbela University of Agriculture, Water and Marine Sciences Uthal, Balochistan” by submitting the lowest bid. This project also included the works of tube-well bore hole with construction of storage tank as well. The high quality work of team SSES was highly appreciated by the VC (voice chancellor) of the university Prof. Dr. Dost Muhammad Baloch who himself came for the inspection of the project.",
+      "date": "2019-08-08",
+      "clients": "Lasbela University of Agriculture, Water and Marine Sciences Uthal, Balochistan",
+      "category": "Solar Water Pumping",
+      "location": "Uthal, Balochistan",
+      "image": "/media/projects/cards/project-06.jpg",
+      "detailImage": "/media/projects/details/project-6.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Tuk District Khuzdar",
+      "slug": "tuk-district-khuzdar",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "",
+      "content": "This is 10 kW solar water pumping system installed by SSES on 10th February, 2019. SP 60 Pump of 10 HP was used for this project which delivers around 1200 liters/minute flow from 4 inch delivery at 80 feet head. The owner of this land used to operate a petrol engine to drive the pump. The petrol engine consumed 50 liters of fuel per day. This Solar water pumping system saved fuel cost of approximately 5,000 Rs per day for the land lord and the Return of Investment (ROI) for this project is only 6 months.",
+      "date": "2019-08-08",
+      "clients": null,
+      "category": null,
+      "location": "Mr. Zia Mengal- Land Lord",
+      "image": "/media/projects/cards/project-07.jpg",
+      "detailImage": "/media/projects/details/project-7.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Kaka Heer, Wadh",
+      "slug": "kaka-heer-wadh",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "",
+      "content": "This is solar water pumping system installed by SSES on 23rd July, 2020. SSES won this tender of installation of Solar Water Pumping System at “Killi Kaka Heer, Wadh Balochistan” by submitting the lowest bid to Public Health Engineering (PHE), Khuzdar. SSES successfully completed this project within a single days despite its remote location. All the safety measures were taken and SOPs were strictly followed as this project was installed during the corona pandemic days.",
+      "date": "2020-07-23",
+      "clients": "Public Health Engineering (PHE) Khuzdar, Government of Balochistan.",
+      "category": "Solar Water Pumping",
+      "location": "Killi Kaka Heer, Wadh Balochistan",
+      "image": "/media/projects/cards/project-08.jpg",
+      "detailImage": "/media/projects/details/project-8.jpg"
+    },
+    {
+      "id": 10,
+      "title": "15 kW Lasbela University, Uthal",
+      "slug": "15-k-w-lasbela-university-uthal",
+      "subtitle": "SOLAR WATER PUMPING SYSTEM",
+      "type": "SOLAR WATER PUMPING SYSTEM",
+      "excerpt": "This is a 15 kW solar water pumping system installed by SSES on 16th August, 2019. SSES won this tender of installation of Solar Water Pumping...",
+      "content": "This is a 15 kW solar water pumping system installed by SSES on 16th August, 2019. SSES won this tender of installation of Solar Water Pumping System for Overhead Tank of University at “Lasbela University of Agriculture, Water and Marine Sciences Uthal, Balochistan” by submitting the lowest bid. The university authorities were very much concerned due to shortage of water at the university. Due to excessive load shedding the pumps which are used to fill the overhead tank of the university remained nonoperational which was the main cause of water shortage. Team SSES installed a Solar Water Pumping which resolved this problem. Prof. Dr. Dost Muhammad Baloch highly praised the efforts of team SSES when he came to visit the project site.",
+      "date": "2019-08-16",
+      "clients": "Lasbela University of Agriculture, Water and Marine Sciences Uthal, Balochistan",
+      "category": "Solar Water Pumping",
+      "location": "Uthal Balochistan",
+      "image": "/media/projects/cards/project-09.jpg",
+      "detailImage": "/media/projects/details/project-9.jpg"
+    },
+    {
+      "id": 11,
+      "title": "9 kW Solar On-Grid System",
+      "slug": "9-k-w-solar-on-grid-system",
+      "subtitle": "On GRID SOLAR SYSTEM",
+      "type": "On GRID SOLAR SYSTEM",
+      "excerpt": "This is a 9 kW Solar On-Grid System which was installed by SSES at Gulshan e Maymar, Karachi. This system is running all the load of the house on Solar Power...",
+      "content": "This is a 9 kW Solar On-Grid System which was installed by SSES at Gulshan e Maymar, Karachi. This system is running all the load of the house on Solar Power at day time and exporting the surplus energy generated to the grid. Client is very happy with the project and gave us a very positive feedback. Client observed a major reduction in electricity bill due to which the return of investment (ROI) will be within 3 years.",
+      "date": "2019-12-15",
+      "clients": "Mr. Yousuf Khan (General Manager, Matiari Sugar Mills Ltd)",
+      "category": "Solar On-Grid System",
+      "location": "Gulshan e Maymar, Karachi",
+      "image": "/media/projects/cards/project-10.jpg",
+      "detailImage": "/media/projects/details/project-10.jpg"
+    },
+    {
+      "id": 12,
+      "title": "KDA Scheme",
+      "slug": "kda-scheme",
+      "subtitle": "On GRID SOLAR SYSTEM",
+      "type": "On GRID SOLAR SYSTEM",
+      "excerpt": "",
+      "content": "This is 24 kW solar on-grid system installed at Mr. Qayyum’s House which is opposite to Agha Khan Hospital Karachi. We have used elevated mounting structure for solar panels which is specially designed to bear all the load of solar panels and is strong enough to sustain in earthquakes and high speed winds. Elevated structure does not acquires any roof space and also provides shadow which keeps the roof and hence the house cool. 24kW on-grid system is producing approx. 2,500-3,000 Units (kWh) monthly. These units are used to fulfil the house electricity requirements and the excess solar energy generated is exported to grid via two way meter which is installed by K Electric. This system has lowered the electricity bill of this house up to 90 %. The ROI is expected within 2.5 years.",
+      "date": "2019-09-01",
+      "clients": "Mr. Qayyum",
+      "category": "Solar On-Grid System",
+      "location": "House Opposite to Agha Khan Hospital Karachi",
+      "image": "/media/projects/cards/project-11.jpg",
+      "detailImage": "/media/projects/details/project-11.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Azeem Town Safoora",
+      "slug": "azeem-town-safoora",
+      "subtitle": "Off GRID SOLAR SYSTEM",
+      "type": "Off GRID SOLAR SYSTEM",
+      "excerpt": "",
+      "content": "This is a 5 kW Solar Off-Grid System which was installed by SSES on 25th July, 2019 at Azeem Town, Near Safoora Chowrangi, Karachi. At the time of this project, Azeem Town was a newly started housing scheme which was in the development phase. There was no grid electricity present. We provided a 24 hours Solar Off-Grid Solution which not only fulfilled their electricity needs but also saved the cost of running generator for 24 hours which is at least 5,000 rupees saving per day.",
+      "date": "2019-07-25",
+      "clients": "Mr. Owais Zaki (Regional Manager, Ideas by Gul Ahmed)",
+      "category": "Solar Off-Grid System",
+      "location": "House Opposite to Agha Khan Hospital Karachi",
+      "image": "/media/projects/cards/project-12.jpg",
+      "detailImage": "/media/projects/details/project-12.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Itehaad Town Orangi",
+      "slug": "itehaad-town-orangi",
+      "subtitle": "Off GRID SOLAR SYSTEM",
+      "type": "Off GRID SOLAR SYSTEM",
+      "excerpt": "",
+      "content": "This is 11 kW system which is combination of 5 kW of solar off-grid System and 5 kW Solar Pumping System to run the motors of RO Plant. The owner of this house is now tension free from all sort of excessive power outages and also saving a lot of money. Two inverters are used for this project, one is Off-grid inverter and the other one is three phase solar VFD Inverter for motor of pump of RO plant. 4 batteries were also used to provide backup to Off-grid system during night time.",
+      "date": "2018-12-30",
+      "clients": "Mr. Inayat",
+      "category": "Solar Off-Grid System + Solar Water Pumping System for RO Plant",
+      "location": "Ittehad Town, Orangi, Karachi",
+      "image": "/media/projects/cards/project-13.jpg",
+      "detailImage": "/media/projects/details/project-13.jpg"
+    },
+    {
+      "id": 15,
+      "title": "15 kW Solar Off-Grid System",
+      "slug": "15-k-w-solar-off-grid-system",
+      "subtitle": "Off GRID SOLAR SYSTEM",
+      "type": "Off GRID SOLAR SYSTEM",
+      "excerpt": "This is 15 kW Solar Off-Grid System. Three off-grid inverters were used to power three floors of the house, one inverter is for basement, second is for ground floor and...",
+      "content": "This is 15 kW Solar Off-Grid System. Three off-grid inverters were used to power three floors of the house, one inverter is for basement, second is for ground floor and the third one is for the 1st floor of the house. Each floor has two inverter ACs of 1.5 tons which can run on solar energy during day time free of cost. 16 maintenance free batteries were also used which provides ample backup to all floors during off-sun hours and night time. The Electricity Bill after the installation is reduced up to 50%. The ROI of this system is expected within 4 years.",
+      "date": "2018-10-09",
+      "clients": "Mr. Imran",
+      "category": "Solar Off-Grid System + Solar Water Pumping System for RO Plant",
+      "location": "Karsaz, Karachi.",
+      "image": "/media/projects/cards/project-14.jpg",
+      "detailImage": "/media/projects/details/project-14.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Solar Geysers",
+      "slug": "solar-geysers",
+      "subtitle": "OTHER PROJECTS",
+      "type": "OTHER PROJECTS",
+      "excerpt": "",
+      "content": "This is 15 kW Solar Off-Grid System. Three off-grid inverters were used to power three floors of the house, one inverter is for basement, second is for ground floor and the third one is for the 1st floor of the house. Each floor has two inverter ACs of 1.5 tons which can run on solar energy during day time free of cost. 16 maintenance free batteries were also used which provides ample backup to all floors during off-sun hours and night time. The Electricity Bill after the installation is reduced up to 50%. The ROI of this system is expected within 4 years.\n",
+      "date": "2018-10-09",
+      "clients": "Mr. Imran",
+      "category": "Solar Off-Grid System + Solar Water Pumping System for RO Plant",
+      "location": "Karsaz, Karachi.",
+      "image": "/media/projects/cards/project-15.jpg",
+      "detailImage": "/media/projects/details/project-15.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Solar Street Lights",
+      "slug": "solar-street-lights",
+      "subtitle": "OTHER PROJECTS",
+      "type": "OTHER PROJECTS",
+      "excerpt": "",
+      "content": "",
+      "date": "2019-03-16",
+      "clients": "Lasbela University of Agriculture, Water and Marine Sciences Uthal, Balochistan",
+      "category": "Other Projects",
+      "location": "Uthal, Balochistan.",
+      "image": "/media/projects/cards/project-16.jpg",
+      "detailImage": "/media/projects/details/project-16.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What components does a solar powered system have?",
+      "answer": "A solar powered energy system consists of solar panels, inverter, mounting structure for solar panels, electrical wiring, breakers and sometime batteries."
+    },
+    {
+      "id": 2,
+      "question": "How does a solar powered system work?",
+      "answer": "Photovoltaic (PV) cells in solar panels convert sunlight into direct current (DC). Inverters then convert the DC electricity into the alternating current (AC) which is then transferred to the main electrical distribution panel (DB) for use. In off-grid and hybrid systems, batteries can be used for storing the initial DC electricity coming from the solar panels through a charge controller."
+    },
+    {
+      "id": 3,
+      "question": "How does net-metering work?",
+      "answer": "Net-Metering concept is a process that allows customers to produce their own solar power and share their surplus electricity with the national grid. The monthly bill is then netted off in proportional to the amount of energy sold to the distribution company. The net metering procedure is used globally to promote the use of distributed generation."
+    },
+    {
+      "id": 4,
+      "question": "What of its maintenance?",
+      "answer": "The only kind of maintenance a solar powered energy system requires is the cleaning of solar panel itself and nothing else. The frequency of cleaning can be weekly or bi-monthly according to the site situation."
+    },
+    {
+      "id": 5,
+      "question": "How much space would I need to install my solar powered system?",
+      "answer": "Space requirements range from 100 to 130 square feet per kW of solar PV installed, depending the tilt angle of the solar PV modules and facing towards the path that sun follows in that region."
+    },
+    {
+      "id": 6,
+      "question": "What if my system produces more energy than I require?",
+      "answer": "The excess electricity would either be sold back to the grid using the net metering or will be stored in the form of batteries and used later by the same load center."
+    },
+    {
+      "id": 7,
+      "question": "Will the weight of the solar PV system be of any concern for my roof?",
+      "answer": "Concrete roofs have no problems at all in handling the distributed load nature of solar PV panels and its frames, however T-slabs & truss based roofs have to be analyzed first before they are used for installation."
+    },
+    {
+      "id": 8,
+      "question": "How long does a solar powered energy system last?",
+      "answer": "Our systems are designed to have a useful life of 25 years or much more, according to the climate and atmosphere it has been used it."
+    },
+    {
+      "id": 9,
+      "question": "Does SSES provide O&M services?",
+      "answer": "Yes, we do."
+    },
+    {
+      "id": 10,
+      "question": "Sustainable Solar Energy Solutions - SSES",
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "question": "Why should we go with SSES?",
+      "answer": "SSES was started by the first ever Energy Engineers of Pakistan. We are here to elevate the standards of services in the solar field. SSES has successfully installed hundreds of solar projects with unbeatable price and services within Pakistan. We strive to live by the following codes of ethic.\nUse of correct design principles.\nAlways use original and quality products.\nEliminate incorrect installation practices.\nSafety of client and labor always comes first."
+    },
+    {
+      "id": 12,
+      "question": "What is the point of origin of SSES’s products?",
+      "answer": "SSES sources its components from various countries. Some of these countries include Germany, Austria, Italy, United States, China and Pakistan. SSES focuses its efforts on designing the most optimum technical and commercial solution on a case to case basis."
+    },
+    {
+      "id": 13,
+      "question": "How to check if the components offered are off the best quality or not?",
+      "answer": "There is nothing hidden during these times of information available at hand. Nowadays market is full of deceit. We give our costumer the virtual choices they can select from according to their requirement and need after they choose and the goods are delivered, they can scan the QR codes of those equipment to cross check what they had chosen earlier."
+    },
+    {
+      "id": 14,
+      "question": "What safety protocols are important to consider while putting up a solar PV system?",
+      "answer": "The National Electric Code (NEC) is an electrical safety code and has a section dedicated to solar PV system electrical installations safety. The NEC drives several design and installation decisions. The National Fire Protection Association (NFPA) has dedicated sections on hazard identification and installation best practices for solar PV systems. California Fire Code (CalFire) is a set of rooftop solar installation safety best practices made by the state of California and used globally for installing solar PV modules to facilitate fire emergency services. International building Code (IBC) used for standard safety practices to evaluate roofs/structures before installing solar PV modules."
+    },
+    {
+      "id": 15,
+      "question": "How much would a solar powered system installed by SSES cost?",
+      "answer": "SSES can provide the best information on what it will cost to go solar for your load. However, once customers begin to explore solar options, they can find vastly varying rates in the market for the same system, what differ are the genuine parts and equipment used by us and some local street vendors. Moreover it is important for costumers to know that the total up-front cost of solar is less relevant than the financing terms, return-on-investment, and cash flow calculation. Financial options such as solar leases and other innovative financing models can help you convert to solar for little or no money along with an efficient design that can also help bring the costs down."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Mr. Azhar Abbas",
+      "designation": "Head of Facilities Management, Habib University",
+      "message": "This is a young startup and with lot of promise and passion. Young graduates of alternate energy have all relevant skills, techniques and knowledge of this new emerging discipline. I recommend fully to their success, as have seen on my project"
+    },
+    {
+      "id": 2,
+      "name": "Yousuf Khan",
+      "designation": "General Manager (Energy and Engineering)Matiari Group.",
+      "message": "This team of young engineers has impressed me. In a small span of time they have achieved landmark success. They are energetic, intelligent, hard working,articulate and because of this they fix difficult targets and endeavour challenging projects for themselves, they then work diligently to achieve results and usually succeed. Their creative and result oriented approach is applaudable. I am glad to wish these young professionals pronounced success in their carrier."
+    },
+    {
+      "id": 3,
+      "name": "Mr. Imran Qayyum",
+      "designation": "Owner of Alpha Petroleum Services ( PSO Outlet )",
+      "message": "Sustainable Solar Energy Solution is a wonderful setup with young and qualified engineers who are experts in their field. I am fully satisfied with their services."
+    },
+    {
+      "id": 4,
+      "name": "Owais Zaki",
+      "designation": "(Area Manager Ideas By Gul Ahmed)",
+      "message": "I had installed the solar power generation system at my home through Sustainable Solar Energy Solutions & have been using it since July 2019. Alhamdulillah very satisfied with the work & the product. Excellent customer service, the team is very supportive & resolves any kind of issues immediately. P.S. The society i am living in has no K.E. connection yet. Solar power is the only source of electricity since I am against the Kunda system."
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "Hassan Jafri",
+      "role": "CEO/ Managing Director",
+      "facebook": "https://www.facebook.com/hassan.jafri.902/",
+      "linkedin": "https://www.linkedin.com/in/hassan-jafri-7a6b171ba/",
+      "image": "/uploads/team_member1_38ae96159c.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Abdul Hameed Mengal",
+      "role": "CEO",
+      "facebook": "https://www.facebook.com/engr.mengal/",
+      "linkedin": null,
+      "image": "/uploads/team_member2_09aa77a67c.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Muhammad Usama Nasir",
+      "role": "Managing Director",
+      "facebook": "https://www.facebook.com/M.UsamaNasir/",
+      "linkedin": "https://www.linkedin.com/in/mohammad-usama-518555a6/",
+      "image": "/uploads/team_member3_71e05482de.jpg"
+    }
+  ],
+  "posts": []
+}
