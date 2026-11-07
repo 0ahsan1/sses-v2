@@ -6,8 +6,8 @@ import { services } from '@/lib/content';
 import { pageFaqs } from '@/lib/seo';
 
 export const metadata = {
-  title: 'Solar Installation Services in Karachi',
-  description: 'Solar panel installation in Karachi for homes, businesses and industrial sites, including on-grid, hybrid, off-grid, pumping and water-heating systems.',
+  title: 'On-Grid, Hybrid & Off-Grid Solar Systems Karachi',
+  description: 'Compare on-grid, hybrid, off-grid, solar water pumping and water-heating systems for Karachi homes, businesses, industrial sites and farms.',
   alternates: { canonical: '/services/' },
 };
 
@@ -27,7 +27,7 @@ const comparisonPoints = [
 
 export default function Services() {
   return <>
-    <PageHero eyebrow="Solar installation services" title="Solar installation in Karachi for homes, businesses and industry." intro="Compare grid-connected, hybrid, independent, water-pumping and water-heating solutions designed around how your site actually uses energy." />
+    <PageHero eyebrow="Compare solar system types" title="Choose the right solar system for your Karachi property." intro="Compare on-grid, hybrid, off-grid, water-pumping and water-heating solutions designed around how your site actually uses energy." />
     <section className="bg-emerald-50">
       <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <p className="text-xs font-black uppercase tracking-[.25em] text-emerald-700">Residential, commercial and industrial</p>
