@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { company } from '@/lib/content';
 
 const inputClasses = 'mt-2 w-full rounded-2xl border border-emerald-950/20 bg-white px-4 py-3 text-emerald-950 outline-none transition placeholder:text-emerald-950/40 focus:border-emerald-700 focus:ring-4 focus:ring-emerald-100';
-const formEndpoint = 'https://formsubmit.co/info.sustainablesolar@gmail.com';
-const ajaxEndpoint = 'https://formsubmit.co/ajax/info.sustainablesolar@gmail.com';
+const formEndpoint = `https://formsubmit.co/${company.email}`;
+const ajaxEndpoint = `https://formsubmit.co/ajax/${company.email}`;
 
 export default function LeadForm({ compact = false }) {
   const [status, setStatus] = useState({ type: 'idle', message: '' });
@@ -12,13 +13,14 @@ export default function LeadForm({ compact = false }) {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const form = event.currentTarget;
+    const formData = Object.fromEntries(new FormData(form).entries());
     setStatus({ type: 'submitting', message: 'Submitting your request…' });
 
     try {
       const response = await fetch(ajaxEndpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify(Object.fromEntries(new FormData(form).entries())),
+        body: JSON.stringify(formData),
       });
       let result;
       try {
@@ -34,10 +36,21 @@ export default function LeadForm({ compact = false }) {
       form.reset();
       setStatus({ type: 'success', message: 'Your request was accepted. SSES will contact you using the details provided.' });
     } catch (error) {
-      const fallbackMessage = 'We could not submit your request. Please try again or contact SSES by phone or email.';
+      const fallbackMessage = 'The form service is not responding, so your request was not confirmed as delivered.';
+      const emailBody = [
+        `Full name: ${formData.name || ''}`,
+        `Email address: ${formData.email || ''}`,
+        `Phone number: ${formData.phone || ''}`,
+        `Property or site type: ${formData.property_type || ''}`,
+        `Average monthly electricity bill (PKR): ${formData.monthly_electricity_bill_pkr || ''}`,
+        '',
+        'Project details or message:',
+        formData.message || '',
+      ].join('\n');
       setStatus({
         type: 'error',
         message: error instanceof Error && !(error instanceof TypeError) && error.message ? error.message : fallbackMessage,
+        fallbackHref: `mailto:${company.email}?subject=${encodeURIComponent('Solar Consultation Request')}&body=${encodeURIComponent(emailBody)}`,
       });
     }
   };
@@ -83,6 +96,7 @@ export default function LeadForm({ compact = false }) {
         <div className="sm:col-span-2">
           <button type="submit" disabled={status.type === 'submitting'} className="inline-flex w-full items-center justify-center rounded-full bg-emerald-950 px-7 py-4 text-base font-black text-white transition hover:bg-emerald-800 focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-emerald-700 disabled:cursor-wait disabled:opacity-70 sm:w-auto">{status.type === 'submitting' ? 'Submitting…' : 'Request a Solar Consultation'}</button>
           {status.type !== 'idle' && <p role={status.type === 'error' ? 'alert' : 'status'} aria-live="polite" className={`mt-4 max-w-2xl text-sm font-bold ${status.type === 'error' ? 'text-red-700' : status.type === 'success' ? 'text-emerald-700' : 'text-emerald-950/70'}`}>{status.message}</p>}
+          {status.fallbackHref && <div className="mt-4 flex flex-col gap-3 sm:flex-row"><a href={status.fallbackHref} className="inline-flex w-full items-center justify-center rounded-full border border-emerald-950/20 px-5 py-3 text-center text-sm font-black text-emerald-950 sm:w-auto">Email this request instead</a><a href={company.whatsappHref} target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center rounded-full border border-emerald-950/20 px-5 py-3 text-center text-sm font-black text-emerald-950 sm:w-auto">Contact SSES on WhatsApp</a></div>}
           <p className="mt-4 max-w-2xl text-xs leading-5 text-emerald-950/60">Your submission is handled securely by a form delivery service and forwarded to SSES.</p>
         </div>
       </form>
