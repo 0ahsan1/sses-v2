@@ -10,7 +10,7 @@ export default function ServiceCard({ service, index }) {
         <h2 className="mt-5 text-2xl font-black tracking-tight sm:text-3xl">{service.title}</h2>
         <p className="mt-4 max-w-2xl leading-7 opacity-75">{service.excerpt}</p>
       </div>
-      <Link href={`/service-details/${service.slug}`} className={`mt-auto inline-flex w-fit rounded-full px-5 py-3 font-black ${dark ? 'bg-amber-300 text-emerald-950' : 'bg-emerald-950 text-white'}`}>View service</Link>
+      <div className="mt-auto pt-8"><Link href={`/service-details/${service.slug}`} className={`inline-flex w-full justify-center rounded-full px-5 py-3 text-center font-black sm:w-fit ${dark ? 'bg-amber-300 text-emerald-950' : 'bg-emerald-950 text-white'}`}>View service</Link></div>
     </div>
   </article>;
 }
