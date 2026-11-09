@@ -43,7 +43,7 @@ export default function Header() {
   return <header className="sticky top-0 z-50 border-b border-emerald-950/10 bg-[#f7f5ec]/95 backdrop-blur">
     <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
       <Link href="/" className="flex items-center gap-3" aria-label="SSES home">
-        <img src="/sses-logo.png" alt="SSES" className="h-11 w-auto" />
+        <img src="/sses-logo.png" alt="Sustainable Solar Energy Solutions" className="h-11 w-auto object-contain" />
       </Link>
       <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
         {links.map(([label, href]) => <Link key={href} href={href} className="text-sm font-semibold text-emerald-950 hover:text-emerald-700">{label}</Link>)}
