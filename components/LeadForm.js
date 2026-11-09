@@ -62,7 +62,7 @@ export default function LeadForm({ compact = false }) {
         <h2 id="consultation-form-title" className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">{compact ? 'Ready to plan your solar installation?' : 'Tell us about your solar project.'}</h2>
         <p className="mt-4 max-w-2xl leading-7 text-emerald-950/70">Share your site and energy needs so SSES can review the right next steps with you.</p>
       </div>
-      <form action={formEndpoint} method="POST" onSubmit={handleSubmit} onInvalid={() => setStatus({ type: 'error', message: 'Please complete all required fields with valid information.' })} aria-busy={status.type === 'submitting'} className={compact ? 'grid gap-5 rounded-[2rem] bg-white p-6 sm:grid-cols-2 sm:p-8' : 'mt-8 grid gap-5 sm:grid-cols-2'}>
+      <form action={formEndpoint} method="POST" onSubmit={handleSubmit} onInvalid={() => setStatus({ type: 'error', message: 'Please complete all required fields with valid information.' })} aria-busy={status.type === 'submitting'} className={compact ? 'grid gap-x-5 gap-y-7 rounded-[2rem] bg-white p-7 sm:grid-cols-2 sm:gap-5 sm:p-8' : 'mt-8 grid gap-5 sm:grid-cols-2'}>
         <input type="hidden" name="_subject" value="New SSES Solar Consultation Request" />
         <input type="hidden" name="_template" value="table" />
         <input type="text" name="_honey" className="hidden" tabIndex="-1" autoComplete="off" aria-hidden="true" />
