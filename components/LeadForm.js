@@ -55,14 +55,14 @@ export default function LeadForm({ compact = false }) {
     }
   };
 
-  return <section aria-labelledby="consultation-form-title" className={compact ? 'rounded-[2.5rem] bg-amber-300 p-7 sm:p-10' : 'rounded-[2.5rem] border border-emerald-950/10 bg-white p-7 shadow-sm sm:p-10'}>
+  return <section aria-labelledby="consultation-form-title" className={compact ? 'rounded-[2.5rem] bg-amber-300 px-3 py-7 sm:p-10' : 'rounded-[2.5rem] border border-emerald-950/10 bg-white p-7 shadow-sm sm:p-10'}>
     <div className={compact ? 'grid gap-8 lg:grid-cols-[.8fr_1.2fr] lg:items-start' : ''}>
       <div>
         <p className="text-xs font-black uppercase tracking-[.25em] text-emerald-800">Solar consultation</p>
         <h2 id="consultation-form-title" className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">{compact ? 'Ready to plan your solar installation?' : 'Tell us about your solar project.'}</h2>
         <p className="mt-4 max-w-2xl leading-7 text-emerald-950/70">Share your site and energy needs so SSES can review the right next steps with you.</p>
       </div>
-      <form action={formEndpoint} method="POST" onSubmit={handleSubmit} onInvalid={() => setStatus({ type: 'error', message: 'Please complete all required fields with valid information.' })} aria-busy={status.type === 'submitting'} className={compact ? 'grid gap-x-5 gap-y-7 rounded-[2rem] bg-white p-7 sm:grid-cols-2 sm:gap-5 sm:p-8' : 'mt-8 grid gap-5 sm:grid-cols-2'}>
+      <form action={formEndpoint} method="POST" onSubmit={handleSubmit} onInvalid={() => setStatus({ type: 'error', message: 'Please complete all required fields with valid information.' })} aria-busy={status.type === 'submitting'} className={compact ? 'grid gap-x-5 gap-y-7 rounded-[2rem] bg-white px-3 py-7 sm:grid-cols-2 sm:gap-5 sm:p-8' : 'mt-8 grid gap-5 sm:grid-cols-2'}>
         <input type="hidden" name="_subject" value="New SSES Solar Consultation Request" />
         <input type="hidden" name="_template" value="table" />
         <input type="text" name="_honey" className="hidden" tabIndex="-1" autoComplete="off" aria-hidden="true" />
@@ -94,7 +94,7 @@ export default function LeadForm({ compact = false }) {
           <textarea className={`${inputClasses} min-h-32 resize-y`} name="message" rows="5" placeholder="Tell us about the site, your power needs or the system you are considering." />
         </label>
         <div className="sm:col-span-2">
-          <button type="submit" disabled={status.type === 'submitting'} className="inline-flex w-full items-center justify-center rounded-full bg-emerald-950 px-7 py-4 text-base font-black text-white transition hover:bg-emerald-800 focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-emerald-700 disabled:cursor-wait disabled:opacity-70 sm:w-auto">{status.type === 'submitting' ? 'Submitting…' : 'Request a Solar Consultation'}</button>
+          <button type="submit" disabled={status.type === 'submitting'} className={`inline-flex w-full items-center justify-center rounded-full bg-emerald-950 py-4 text-base font-black text-white transition hover:bg-emerald-800 focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-emerald-700 disabled:cursor-wait disabled:opacity-70 sm:w-auto ${compact ? 'whitespace-nowrap px-4 sm:px-7' : 'px-7'}`}>{status.type === 'submitting' ? 'Submitting…' : 'Request a Solar Consultation'}</button>
           {status.type !== 'idle' && <p role={status.type === 'error' ? 'alert' : 'status'} aria-live="polite" className={`mt-4 max-w-2xl text-sm font-bold ${status.type === 'error' ? 'text-red-700' : status.type === 'success' ? 'text-emerald-700' : 'text-emerald-950/70'}`}>{status.message}</p>}
           {status.fallbackHref && <div className="mt-4 flex flex-col gap-3 sm:flex-row"><a href={status.fallbackHref} className="inline-flex w-full items-center justify-center rounded-full border border-emerald-950/20 px-5 py-3 text-center text-sm font-black text-emerald-950 sm:w-auto">Email this request instead</a><a href={company.whatsappHref} target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center rounded-full border border-emerald-950/20 px-5 py-3 text-center text-sm font-black text-emerald-950 sm:w-auto">Contact SSES on WhatsApp</a></div>}
           <p className="mt-4 max-w-2xl text-xs leading-5 text-emerald-950/60">Your submission is handled securely by a form delivery service and forwarded to SSES.</p>
